@@ -1,0 +1,49 @@
+p {
+  display: flex;
+  font-size: xx-large;
+  font-weight: bolder;
+  width: 100%;
+  padding: 30px;
+}
+
+.danger {
+  background-color: lightpink;
+}
+.success {
+  background-color: lightgreen;
+}
+.warning {
+  background-color: lightsalmon;
+}
+.info {
+  background-color: lightblue;
+}
+
+.danger:before {
+  color: red;
+  padding-right: 20px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f06a";
+}
+.success:before {
+  color: green;
+  padding-right: 20px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f058";
+}
+.warning:before {
+  color: orange;
+  padding-right: 20px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f071";
+}
+.info:before {
+  color: blue;
+  padding-right: 20px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f05a";
+}

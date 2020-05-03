@@ -1,0 +1,53 @@
+.contenedorPaginado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 10px;
+  min-width: 100px;
+  font-size: large;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  background-blend-mode: darken;
+}
+
+.prev {
+  background-color: #6585ab;
+}
+
+.prev:before {
+  content: "<< ";
+}
+
+.next {
+  background-color: #2aa854;
+}
+
+.next:after {
+  content: " >>";
+}
+
+.min,
+.max {
+  font-weight: bolder;
+  font-size: xx-large;
+  padding: 10px;
+  margin: 0 20px;
+}
+
+.puntos {
+  padding: 20px;
+  font-size: 50px;
+}
+
+.actual {
+  color: green;
+  font-size: xx-large;
+  font-weight: bolder;
+}

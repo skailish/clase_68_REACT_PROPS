@@ -1,0 +1,27 @@
+.vacio,
+.lleno {
+  font-size: 60px;
+}
+
+.rojo {
+  color: red;
+}
+.verde {
+  color: green;
+}
+.amarillo {
+  color: yellow;
+}
+
+.texto {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.block {
+  display: inline-block;
+}
+
+.none {
+  display: none;
+}
