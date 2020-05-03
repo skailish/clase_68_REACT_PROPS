@@ -1,0 +1,24 @@
+button {
+  display: block;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.small {
+  font-size: normal;
+  padding: 20px;
+}
+
+.medium {
+  font-size: large;
+  padding: 20px 100px;
+}
+
+.large {
+  font-size: xx-large;
+  padding: 20px 250px;
+}
+
+.rounded {
+  border-radius: 20px;
+}
