@@ -1,1 +1,0 @@
-# clase_68_REACT_PROPS

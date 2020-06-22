@@ -1,6 +1,6 @@
-.vacio,
-.lleno {
-  font-size: 60px;
+i {
+  font-size: 40px;
+  padding: 5px;
 }
 
 .rojo {
@@ -16,6 +16,7 @@
 .texto {
   font-size: xx-large;
   font-weight: bolder;
+  margin-left: 20px;
 }
 
 .block {

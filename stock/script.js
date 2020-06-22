@@ -22,6 +22,7 @@ const Stock = ({ producto, cantidad, maximo }) =>
 {
   let colorCSS = "";
 
+  //es mejor un switch???
   if (cantidad < (maximo * 10) / 100) {
     colorCSS = "rojo";
   } else if (cantidad > ((maximo * 10) / 100) && cantidad < ((maximo * 25) / 100)) {
@@ -37,12 +38,7 @@ const Stock = ({ producto, cantidad, maximo }) =>
 
 const ListaStock = () =>
 {
-  let liElements = [];
-
-  productos.forEach(producto =>
-  {
-    liElements.push(e(Stock, producto))
-  });
+  const liElements = productos.map(producto => e(Stock, producto));
   return e('ul', null, liElements)
 }
 
